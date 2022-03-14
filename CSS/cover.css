@@ -1,0 +1,239 @@
+body{
+    background: black;
+}
+
+.container{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 35%;
+    top: 20%;
+    background: antiquewhite;
+    animation: rotate 3s;
+
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); background: antiquewhite}
+    50% {transform: rotate(360deg); background: black}
+    100%{transform: rotate(0deg); background: antiquewhite}
+}
+.container:hover{
+    background: black;
+}
+
+.text-container{
+    padding: 5px;
+}
+.first-line, .second-line, .fourth-line {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+    padding: 2px;
+    color: black;
+}
+.container:hover .first-line,.second-line {
+    color: papayawhip;
+}
+.container:hover .fourth-line{
+    color: papayawhip;
+}
+.second-line, .third-line, span{
+    color: darkmagenta;
+    opacity: 0.8;
+}
+.container:hover .second-line{
+    color: blue;
+}
+.container:hover .third-line{
+    color: blue;
+}
+
+.container:hover span{
+    color: blue;
+}
+
+.third-line{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    padding: 1.5px;
+}
+.square-container{
+    padding-right: 40px;
+    padding-left: 40px;
+    position: absolute;
+    top: 45%;
+    box-sizing: border-box;
+}
+.square,.square2, .square3, .square4, .square5, .square6, .square7,.square8,.square9, .square10, .square11, .square12, .square13, .square14, .square15, .square16,.square17,.square18,.square19,.square20,.square21{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+}
+.square22,.square23,.square25,.square26,.square27,.square28,.square38,.square39,.square40,.square41,.square42,.square43,.square44,.square45,.square46,.square47,.square48,.square49{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+}
+.square29,.square30,.square32,.square33,.square34,.square35{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+}
+.square37{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s ;
+    animation-delay: 2.5s;
+}
+@keyframes square{
+    0% {}
+    50% {background:#cf291f}
+    100%{}
+
+}
+.square36{
+    width: 40px;
+    height: 40px;
+    background: #cf291f;
+    position: relative;
+    top: -70px;
+    left: 3px;
+    animation: red-box 18s ;
+    animation-delay: 2s;
+}
+@keyframes red-box {
+    0% {}
+    5%{top: 1px; background: black}
+    100% { top: 1px;background: black}
+    
+}
+
+.square30{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s ;
+    animation-delay: 3.5s;
+}
+.square31{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s;
+    animation-delay: 4.5s;
+}
+.square24{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s;
+    animation-delay: 5.5s;
+}
+.square25{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s;
+    animation-delay: 6.5s;
+}
+.square18{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s;
+    animation-delay: 7.5s;
+}
+.square19{
+    width: 20px;
+    height: 20px;
+    background: black;
+    padding: 10px;
+    margin: 3px;
+    animation: square 2s;
+    animation-delay: 8.5s;
+}
+.square12{
+    animation: square 2s;
+    animation-delay: 9.5s;
+}
+.square13{
+    animation: square 2s;
+    animation-delay: 10.5s;
+}
+.square6{
+    animation: square 2s;
+    animation-delay: 11.5s;
+}
+.square7{
+    animation: square 2s;
+    animation-delay: 12.5s;
+}
+.row1 {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+.row2 {
+    position: absolute;
+    left: 85px;
+    top: 0px;
+}
+.row3 {
+    position: absolute;
+    left: 130px;
+    top: 0px;
+}
+.row4{
+    position: absolute;
+    left: 175px;
+    top: 0px;
+}
+.row5{
+    position: absolute;
+    left: 220px;
+    top: 0px;
+}
+.row6{
+    position: absolute;
+    left: 265px;
+    top: 3px;
+}
+.row7{
+    position: absolute;
+    left: 310px;
+    top: 0px;
+}
+.text{
+    width: 200px;
+    font-size: 0.68em;
+    transform: rotate(270deg);
+    color: darkmagenta;
+    position: absolute;
+    left: 260px;
+    top: 465px;
+    opacity: 0.8;
+}
+.container:hover .text{
+    color: blue;
+}
